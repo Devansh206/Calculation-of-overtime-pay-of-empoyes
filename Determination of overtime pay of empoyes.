@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int n,hrs,i=1;
+float otpay;
+printf("enter the valye of the employ");
+scanf("%d",&n);
+while(i<=n)
+{
+ printf("enetr the hours worked of the employe");
+ scanf("%d",&hrs);
+ if(hrs>40)
+  otpat=(hrs-40)*12.00;
+ else
+  otpay=0;
+  printf("hours=%dovertime=Rs.%d\n",hrs,otpay);
+  i++;
+ }
+ return 0;
+}
